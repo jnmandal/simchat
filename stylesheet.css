@@ -1,0 +1,12 @@
+html{
+  background-color: black;
+}
+.container{
+  height:50%;
+  max-height: 50%;
+  max-width: 50%;
+  background-color: white;
+  overflow: scroll;
+  border: 4px solid green;
+  border-radius: 25px;
+}
