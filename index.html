@@ -18,6 +18,7 @@
       var exampleSocket = new WebSocket("ws://192.168.0.19:8080");
       exampleSocket.onmessage = function (event) {
         $(".container").append("<p>"+event.data+"</p>");
+        $(".container").animate({scrollTop:$(".container").height()}, "fast");
       }
       $("form").on("submit",function(event){
         event.preventDefault();
